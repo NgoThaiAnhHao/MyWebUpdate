@@ -271,7 +271,7 @@ footer .fa-free-code-camp {
 
 @media only screen and (max-width: 425px) {
   html {
-    font-size: 4px;
+    font-size: 7px;
   }
 
   #navbar ul {
@@ -293,3 +293,54 @@ footer .fa-free-code-camp {
     justify-content: center;
   }
 }
+
+@media only screen and (max-width: 375px) {
+  html {
+    font-size: 6px;
+  }
+
+  #navbar ul {
+    margin-right: 0;
+    justify-content: center;
+  }
+
+  .box {
+    flex-direction: column;
+    flex-wrap: wrap;
+  }
+  #contact h1 {
+    text-align: center;
+  }
+
+  #contact .contact-link {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+}
+
+@media only screen and (max-width: 320px) {
+  html {
+    font-size: 5px;
+  }
+
+  #navbar ul {
+    margin-right: 0;
+    justify-content: center;
+  }
+
+  .box {
+    flex-direction: column;
+    flex-wrap: wrap;
+  }
+  #contact h1 {
+    text-align: center;
+  }
+
+  #contact .contact-link {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+}
+
