@@ -277,7 +277,10 @@ footer .fa-free-code-camp {
 }
 
 
-@media only screen and (max-width: 320px) {
+@media only screen 
+    and (width: 430px) 
+    and (height: 932px) 
+    and (-webkit-device-pixel-ratio: 3) {
   html {
     font-size: 6px;
   }
