@@ -347,14 +347,6 @@ footer .fa-free-code-camp {
     font-size: 4px;
   }
 
-  body {
-    max-width: 100%;
-  }
-
-  #navbar {
-    width: 100dvw;
-  }
-
   #navbar ul {
     margin-right: 0;
     justify-content: center;
