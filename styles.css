@@ -276,11 +276,73 @@ footer .fa-free-code-camp {
   }
 }
 
+@media only screen and (max-width: 320px) {
+  html {
+    font-size: 6px;
+  }
 
-@media only screen 
-    and (width: 430px) 
-    and (height: 932px) 
-    and (-webkit-device-pixel-ratio: 3) {
+  body {
+    max-width: 100%;
+  }
+
+  #navbar {
+    width: 100dvw;
+  }
+
+  #navbar ul {
+    margin-right: 0;
+    justify-content: center;
+  }
+
+  .box {
+    flex-direction: column;
+    flex-wrap: wrap;
+  }
+  #contact h1 {
+    text-align: center;
+  }
+
+  #contact .contact-link {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+}
+
+@media only screen and (max-width: 375px) {
+  html {
+    font-size: 6px;
+  }
+
+  body {
+    max-width: 100%;
+  }
+
+  #navbar {
+    width: 100dvw;
+  }
+
+  #navbar ul {
+    margin-right: 0;
+    justify-content: center;
+  }
+
+  .box {
+    flex-direction: column;
+    flex-wrap: wrap;
+  }
+  #contact h1 {
+    text-align: center;
+  }
+
+  #contact .contact-link {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+}
+
+@media only screen and (max-width: 425px) {
   html {
     font-size: 6px;
   }
